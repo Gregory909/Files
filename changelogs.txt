@@ -1,19 +1,35 @@
-< Script >
-Hub
-  - UI – Fixed issues with Xeno
+[ UI ]
+ • Added UI Animation!
+ • Updated Mobile Button toggle(callback)!
+ • Updated |  Fixed Themes doesnt applying!
+ • Updated Click Actions!
+ • Fixed TopBar buttons!
+ • Fixed Dropdown Options bugs!
+ • Fixed Slider bug with UI dragging!
+ • Soon UI will be updated...
 
-Universal
-  - Aimbot – Improved aiming accuracy
+[ Main Systems ]
+ • Fixed Rejoin and ServerHop!
+ • Improved Admins Checker!
+ • Improved Logger | Blacklist!
+ • Improved others protection system!
 
-MM2
-  - Loading – Patched error 542
+[ MM2 ]
+ • Added Fling All!
+ • Improved Instant Interact | Remove Barrier!
+ • Improved smaller Silent Aim!
+ • Improved Grab Gun!
+ • Rewritten Boost FPS!
+ • Fixed Loop Fling All!
+ • Disabled Autofarm Safe V2 due of bugs!
 
-Doors
-  - Aimbot – Fixed aiming bugs
+[ FPE:S ]
+ • Added more features!
+ • Added events features(Present Aura | ESP)!
+ • Improved Aimbot Bloomie | Thavel!
+ • Remaked Tabs(credits to FPES.lua Owner)!
+ • Rewritten Auto Block(credits to Clair3169, modifed by Gregory909)!
+ • Fixed Auto Answer Questions bugs!
 
-Forsaken
-  - Fix Generator – Solved kick issues
-
-
-< Executor >
-  - Injection – Fixed random injection crashes
+[ Forsaken | Die Of Death (NEW) ]
+ • Currently is unfinished, let us know about features | bugs!

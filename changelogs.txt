@@ -1,3 +1,34 @@
+## **Vanish Hub (Main and Universal) got hotfix update!** (version 1.1.7hf) — 08.07.2026
+[ UI ]
+|-[+] Added Custom UI Colors Options Sizes, etc.)!
+|-[*] Smaller reworked some elements system!
+|-[*] Improved Caches and Animations!
+|-[*] Fixed issues with scales in UI, Tabs, Sections, Buttons, etc.
+|-[*] Loading is more faster for now!
+
+[ Main System ]
+|-[*] Fixed a bit Fling module not working sometimes!
+|-[*] Recoded a bit config saves system!
+
+[ MM2 ]
+|-[+] Added Anti Fling / Anti Bang(automatically)!
+|-[+] Added Silent Aim option 'Auto Equip Gun'!
+|-[*] Fixed AutoFarm Legacy bug causing character doesnt laying | still begging detected!
+|-[*] Fixed Remove Barriers doesnt working!
+|-[*] Fixed bugs with Fling Player flings peoples when selected player left!
+|-[*] Upgraded Anti Void!(with a options: 'Void Safe' and 'Without Void Safe')
+|-[*] Updated Teleport To Lobby!(doesnt requires to update anymore)
+|-[*] Updated a bit anti stealer!
+
+[ FPE:S (Paused) ]
+|-[-] Paused development until FPE:S will back!
+
+[ Universal(BACK) ]
+|-[+] Added for Aimbot Modes: Simple Aim and Throwing Aim(for systems while you throwing grenades or others objects to object)!
+|-[+] Added 'Triggers' systems(like from CS:GO) while your standing on required box for script with customized actions(walking, aiming, waiting, bind pressing, etc.)
+|-[*] Rewritten most systems(from Main script)!
+|-[*] Rewritten Aimbot logic(more accuracy)!
+
 [ UI ]
  • Added UI Animation!
  • Updated Mobile Button toggle(callback)!

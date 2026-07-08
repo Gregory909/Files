@@ -1,1 +1,36 @@
-[-] - XDDDDD
+[ UI ]
+|-[*] Reworked and redesigned UI!
+|-[*] Reworked Chat Tab!
+|-[*] Reworked most Elements!
+|-[*] Fixed Player Dropdown callbacks again while another player left as a selected option!
+
+[ Main Systems ]
+|-[+] Added authorization system(BETA)!
+|-[+] Added for every games feature: Custom Theme, Toggle Disable Features(disables features from list) and more)! 
+|-[*] Fixed / Recoded Fling Service not working sometimes!
+|-[*] Fixed ESP sometimes doesnt working correctly!
+|-[*] Fixed Error Handler to prevent script from begging broken!
+
+[ Murder Mystery 2 ]
+|-[+] Added more features: Anti Fling; Auto Avoid Bangers and Flings!
+|-[*] Fixed Noclip sometimes doesnt working!
+|-[*] Reworked Anti Void(with Void Saver)!
+|-[*] Reworked AutoFarm Legacy, Old!
+|-[*] Reworked Shoot Murder(more accuracy)!
+
+[ FPE:S ]
+|-[+] Added EVEN more features: AutoFarm for Teachers; Reach Settings(Teachers, Bat, Abilities)
+|-[*] Fixed / Rewritten Reach affects on Highlight sizes!
+
+[ Forsaken(BACK) ]
+|-[*] Rewritten Stamina to Low Executors!
+|-[*] Rewritten Reach(for every killers)!
+|-[*] Optimized Survivors features(Auto Block for Guest 1337 more accurate; Aimbot for Chance, Jane Doe and more)!
+
+[ Die Of Death(BACK) ]
+
+[ Universal(BACK) ]
+|-[*] Rewritten most systems!
+|-[*] Rewritten Triggers, Macros!
+[ Bite By Night(DOWN) ]
+|-[-] Begging downed until BBN back up!

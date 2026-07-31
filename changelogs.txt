@@ -1,7 +1,17 @@
-[ Test ]
-|-[*] test
-|-[*] test
+[ UI ]
+|-[*] Fixed issues with Color Picker positions begging bugged!
 
-[ Test ]
-|-[*] test
-|-[*] test
+[ Main System ]
+|-[*] Reworked Config system(Test version)!
+|-[*] Fixed Fling service issues with prediction!
+|-[*] Finally fixed Noclip issues with collision in objects begging dropped!
+|-[*] Attempted to fix bug with esp players disappears for som reasons.-.
+
+[ MM2 ]
+|-[*] Updated a bit Teleport To Map, Lobby!
+|-[*] Fixed optimization due of players role update!
+|-[*] Fixed broken logic in Grab Gun! (thanks @YubX_2 for reporting bug)
+|-[*] Attempted to fix AutoFarm Legacy resets lay position on collected coin!
+|-[*] Fixed AutoFarm Old doesnt working correctly!
+|-[-] Scrapped Pathfind method due of too much bugs!
+|-[-] Removed 'Second Life' because its got patched!

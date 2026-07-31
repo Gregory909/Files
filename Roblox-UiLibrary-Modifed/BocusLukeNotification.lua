@@ -84,15 +84,15 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     WindowDescription.TextYAlignment = Enum.TextYAlignment.Top
 
     if SelectedType == "default" then
-        game:GetService("TweenService"):Create():Play(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 240, 0, 90)}):Play()
+        game:GetService("TweenService"):Create(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 240, 0, 90)}):Play()
         Window.Size = UDim2.new(0, 230, 0, 80)
-        game:GetService("TweenService"):Create():Play(Outline_A, TweenInfo.new(middledebug.Time,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 2)}):Play()
+        game:GetService("TweenService"):Create(Outline_A, TweenInfo.new(middledebug.Time,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 2)}):Play()
         wait(middledebug.Time)
-        game:GetService("TweenService"):Create():Play(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 0)}):Play()
+        game:GetService("TweenService"):Create(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 0)}):Play()
         wait(0.2)
         ambientShadow:Destroy()
     elseif SelectedType == "image" then
-        game:GetService("TweenService"):Create():Play(ambientShadow, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 240, 0, 90)}):Play()
+        game:GetService("TweenService"):Create(ambientShadow, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 240, 0, 90)}):Play()
         Window.Size = UDim2.new(0, 230, 0, 80)
         WindowTitle.Position = UDim2.new(0, 24, 0, 2)
         local ImageButton = Instance.new("ImageButton")
@@ -109,7 +109,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
 
         game:GetService("TweenService"):Create(Outline_A, TweenInfo.new(middledebug.Time,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 2)}):Play()
         wait(middledebug.Time)
-        game:GetService("TweenService"):Create(ambientShadow, TweenInfo.new(middledebug.Time,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 2)}):Play()
+        game:GetService("TweenService"):Create(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 2)}):Play()
         wait(0.2)
         ambientShadow:Destroy()
     elseif SelectedType == "option" then

@@ -84,23 +84,15 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     WindowDescription.TextYAlignment = Enum.TextYAlignment.Top
 
     if SelectedType == "default" then
-        local function ORBHB_fake_script()
-            local script = Instance.new('LocalScript', ambientShadow)
-        
-            ambientShadow:TweenSize(UDim2.new(0, 240, 0, 90), "Out", "Linear", 0.2)
-            Window.Size = UDim2.new(0, 230, 0, 80)
-            Outline_A:TweenSize(UDim2.new(0, 0, 0, 2), "Out", "Linear", middledebug.Time)
-    
-            wait(middledebug.Time)
-        
-            ambientShadow:TweenSize(UDim2.new(0, 0, 0, 0), "Out", "Linear", 0.2)
-            
-            wait(0.2)
-            ambientShadow:Destroy()
-        end
-        coroutine.wrap(ORBHB_fake_script)()
+        game:GetService("TweenService"):Create():Play(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 240, 0, 90)}):Play()
+        Window.Size = UDim2.new(0, 230, 0, 80)
+        game:GetService("TweenService"):Create():Play(Outline_A, TweenInfo.new(middledebug.Time,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 2)}):Play()
+        wait(middledebug.Time)
+        game:GetService("TweenService"):Create():Play(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 0)}):Play()
+        wait(0.2)
+        ambientShadow:Destroy()
     elseif SelectedType == "image" then
-        ambientShadow:TweenSize(UDim2.new(0, 240, 0, 90), "Out", "Linear", 0.2)
+        game:GetService("TweenService"):Create():Play(ambientShadow, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 240, 0, 90)}):Play()
         Window.Size = UDim2.new(0, 230, 0, 80)
         WindowTitle.Position = UDim2.new(0, 24, 0, 2)
         local ImageButton = Instance.new("ImageButton")
@@ -115,21 +107,13 @@ function Nofitication:Notify(nofdebug, middledebug, all)
         ImageButton.Image = all.Image
         ImageButton.ImageColor3 = all.ImageColor
 
-        local function ORBHB_fake_script()
-            local script = Instance.new('LocalScript', ambientShadow)
-        
-            Outline_A:TweenSize(UDim2.new(0, 0, 0, 2), "Out", "Linear", middledebug.Time)
-
-            wait(middledebug.Time)
-        
-            ambientShadow:TweenSize(UDim2.new(0, 0, 0, 0), "Out", "Linear", 0.2)
-            
-            wait(0.2)
-            ambientShadow:Destroy()
-        end
-        coroutine.wrap(ORBHB_fake_script)()
+        game:GetService("TweenService"):Create(Outline_A, TweenInfo.new(middledebug.Time,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 2)}):Play()
+        wait(middledebug.Time)
+        game:GetService("TweenService"):Create(ambientShadow, TweenInfo.new(middledebug.Time,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 2)}):Play()
+        wait(0.2)
+        ambientShadow:Destroy()
     elseif SelectedType == "option" then
-        ambientShadow:TweenSize(UDim2.new(0, 240, 0, 110), "Out", "Linear", 0.2)
+        game:GetService("TweenService"):Create():Play(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 240, 0, 110)}):Play()
         Window.Size = UDim2.new(0, 230, 0, 100)
         local Uncheck = Instance.new("ImageButton")
         local Check = Instance.new("ImageButton")
@@ -159,15 +143,12 @@ function Nofitication:Notify(nofdebug, middledebug, all)
         Check.ImageColor3 = Color3.fromRGB(83, 230, 50)
 
         local function ORBHB_fake_script()
-            local script = Instance.new('LocalScript', ambientShadow)
-        
             local Stilthere = true
             local function Unchecked()
                 pcall(function()
                     all.Callback(false)
                 end)
-                ambientShadow:TweenSize(UDim2.new(0, 0, 0, 0), "Out", "Linear", 0.2)
-                
+                game:GetService("TweenService"):Create(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 0)}):Play()
                 wait(0.2)
                 ambientShadow:Destroy()
                 Stilthere = false
@@ -176,23 +157,19 @@ function Nofitication:Notify(nofdebug, middledebug, all)
                 pcall(function()
                     all.Callback(true)
                 end)
-                ambientShadow:TweenSize(UDim2.new(0, 0, 0, 0), "Out", "Linear", 0.2)
-                
+                game:GetService("TweenService"):Create(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 0)}):Play()
                 wait(0.2)
                 ambientShadow:Destroy()
                 Stilthere = false
             end
             Uncheck.MouseButton1Click:Connect(Unchecked)
             Check.MouseButton1Click:Connect(Checked)
-            
-            Outline_A:TweenSize(UDim2.new(0, 0, 0, 2), "Out", "Linear", middledebug.Time)
+            game:GetService("TweenService"):Create(Outline_A, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 2)}):Play()
     
             wait(middledebug.Time)
 
             if Stilthere == true then
-        
-                ambientShadow:TweenSize(UDim2.new(0, 0, 0, 0), "Out", "Linear", 0.2)
-                
+                game:GetService("TweenService"):Create(ambientShadow, TweenInfo.new(0.2,Enum.EasingStyle.Linear, Enum.EasingDirection.Out), {Size = UDim2.new(0, 0, 0, 0)}):Play()
                 wait(0.2)
                 ambientShadow:Destroy()
             end

@@ -1,31 +1,7 @@
-[ UI ]
-|-[+] Added Custom Theme!
-|-[*] Improved Elements Section!
-|-[*] Improved Resize Logic(replaced)!
-|-[*] Improved Mobile Buttons binds!
-|-[*] Fixed Player Dropdown callbacks again when another player left but he was selected!
+[ Test ]
+|-[*] test
+|-[*] test
 
-[ Main Systems ]
-|-[*] Recoded Fling Players - now it should be much better!
-|-[*] Now while user reports bugs or errors, he can send his logs from script for future improvements!
-|-[*] UI can be updated without changes in scripts, but loads a bit more laggy because of luraph protection!
-|-[*] Fixed Error Handler to prevent script from begging broken!
-
-[ Murder Mystery 2 ]
-|-[+] Added Anti Fling!
-|-[*] Reworked Anti Void(with Void Saver)!
-|-[*] Reworked Grab Gun teleportating, AutoFarm Legacy with Old methods!
-|-[*] Improved Shoot Murder!
-|-[*] Now on every teleports usage players gets fixed 
-
-[ Die Of Death(RETURNED | STILL IN DEVELOPMENT) ]
-|-[*] Returned, but will gets too much changes soon...
-
-[ FPE:S and Forsaken ]
-|-[*] Will gets changes in Hotfix Part 2!
-
-[ Bite By Night(DOWN) ]
-|-[-] Still downed until developers return place!
-
-[ Animal Hospital(SOON) ]
-|-[*] Script is begging developed for this game. Will be released in future updates!
+[ Test ]
+|-[*] test
+|-[*] test

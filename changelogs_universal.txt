@@ -1,1 +1,23 @@
+[ Ui ]
+|-[+] Added 'New' Layout mode!
+|-[*] Fixed bugs with loading tabs in first time begging bugged!
+|-[*] Fixed finally animations for some reasons didnt working!
+|-[*] Fixed optimization with theme changes for low devices!
+|-[*] Improved Window Size for PC, Mobile users!
+|-[*] Recolored Themes!
+|-[*] Redesigned UI elements!
+|-[*] Logic changes of elements: dropdown now applies smoothly size only based on text lenght(same for textbox and keybind); reduced color picker indicator with panel; reworked slider and etc.!
 
+[ Main System ]
+|-[+] Added 'Others' section! ("Use Fixed Drawing Library", "Use Executor FireTouchInterest", "Use Custom Console")!
+|-[+] Added EVEN more customizations to UI (LayoutMode, Watermark, Disable Animations, Notifications Library(BocusLuke, Vanish/OWN))!
+|-[*] Finally reworked Configs(doesnt checks for titles name anymore <3)!
+|-[*] Improved ESP Library rendering!
+|-[*] Fixed ErrorHandler only handling loading stuffs!
+|-[*] Fixed bugs with tracers appears for second even if you didnt enable them!
+|-[*] Fixed problem with others scripts/rare moment causing breaks ESP players(doesnt affects to objects runtime)!
+|-[*] Vanish Authorization is begging developed soon...
+
+[ Universal ]
+|-[*] Universal is back to online!
+|-[-] Sadly, but most features from old version(Triggers, Players Section, etc.) was scrapped :(
